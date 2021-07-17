@@ -15,3 +15,5 @@ class AbstractOperationObserver(metaclass=ABCMeta):
 
     def get_second_number(self):
         return self.operation_subject.get_second_number()
+
+    

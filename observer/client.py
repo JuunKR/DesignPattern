@@ -25,5 +25,6 @@ class Client:
 
         operation_subject.set_number(first_number, second_number)
 
+
 client = Client()
 client.main(100, 20)

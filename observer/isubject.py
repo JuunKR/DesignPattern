@@ -14,3 +14,4 @@ class ISubject(metaclass=ABCMeta):
     @abstractmethod
     def remove_observer(self, observer):
         pass
+

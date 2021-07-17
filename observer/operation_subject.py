@@ -31,4 +31,3 @@ class OperationSubject(ISubject):
     def get_second_number(self):
         return self.second_number
 
-
