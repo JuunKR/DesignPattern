@@ -1,0 +1,19 @@
+from calculator import Calculator
+from add_operation import AddOperation
+from substract_operation import SubstractOperation
+from multiply_operation import MultiplyOperation
+
+class Client:
+    def main(self):
+        
+        
+        add_operation = AddOperation()
+        result = add_operation.operate(1,3)
+
+        print(result)
+        
+
+
+        
+client = Client()
+client.main()
